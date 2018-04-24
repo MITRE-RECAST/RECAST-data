@@ -1,0 +1,2527 @@
+{
+    "bsf": [
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be48e",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:11.973000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "364",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b851102a00019be56c",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:12.411000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "364",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52ba51102a00019be58b",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:12.067000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "364",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4308",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:43:10.736000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be58f",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53001",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "364",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "commander.exe",
+            "md5_hash": "C633B393A0E1A88AFC6BE63B20FD8F57",
+            "parent_image_path": "C:\\Program Files\\cagent\\cagent.exe",
+            "id": "5acd52bb51102a00019be5a1",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:42:05.833000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "17135E5A74AB545B91C0F5EA83B70021009267A66FCC462ABEB3FE490B009BB6",
+            "hostname": "zissler-pc",
+            "ppid": "3896",
+            "sha1_hash": "4A4227EF87391A5012C2B13A0D69EDC95185E944",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "C:\\commander.exe -f",
+            "image_path": "C:\\commander.exe",
+            "pid": "4780",
+            "confidence": 0.8,
+            "parent_exe": "cagent.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bf51102a00019be63d",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:12.411000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "364",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4308",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be491",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:22.770000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4008",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b851102a00019be571",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:22.895000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4008",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be591",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:22.770000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4008",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4736",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:43:21.293000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be596",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53012",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "4008",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c051102a00019be64d",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:22.895000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4008",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4736",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be494",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:33.255000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "3640",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b851102a00019be564",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:33.379000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "3640",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be58d",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:33.270000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "3640",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4968",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:43:31.781000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be590",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53022",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "3640",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bf51102a00019be642",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:33.379000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "3640",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4968",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be497",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:43.770000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "2580",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b951102a00019be57e",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:43.895000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "2580",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be58c",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:43.770000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "2580",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "5000",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:43:42.290000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be593",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53032",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "2580",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bf51102a00019be63f",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:43.895000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "2580",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "5000",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be49a",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:54.270000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "3980",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b851102a00019be574",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:54.411000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "3980",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be597",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:43:54.270000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "3980",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "2884",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:43:52.817000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be5a9",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53046",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "3980",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c051102a00019be655",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:43:54.411000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "3980",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "2884",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be49d",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:04.786000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4520",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b851102a00019be56d",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:04.895000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4520",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be58e",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:04.786000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4520",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "692",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:44:03.300000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be595",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53056",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "4520",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c051102a00019be647",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:04.911000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4520",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "692",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be4a0",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:15.270000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4804",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b951102a00019be580",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:15.379000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4804",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be594",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:15.270000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4804",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "3064",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:44:13.786000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be59d",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53068",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "4804",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c051102a00019be658",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:15.379000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4804",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "3064",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be4a3",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:25.817000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "3412",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b851102a00019be576",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:25.942000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "3412",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:44:24.340000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52ba51102a00019be589",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53078",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "3412",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be59c",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:25.833000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "3412",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4864",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c051102a00019be666",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:25.942000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "3412",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4864",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be4a6",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:36.333000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4500",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b951102a00019be579",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:36.489000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4500",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be598",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:36.333000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4500",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "3552",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:44:34.897000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bb51102a00019be5ad",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53088",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "4500",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c051102a00019be65e",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:36.504000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4500",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "3552",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be4a9",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:46.895000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4356",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b951102a00019be586",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:47.020000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4356",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be5b1",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:46.895000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4356",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4364",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:44:45.425000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bc51102a00019be5c8",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53099",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "4356",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c251102a00019be677",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:47.020000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4356",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4364",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b651102a00019be4ac",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:57.489000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4656",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b951102a00019be585",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:57.614000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4656",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:44:56.010000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52ba51102a00019be587",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53110",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "4656",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bb51102a00019be5b2",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:44:57.489000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4656",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "332",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c151102a00019be676",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:44:57.614000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4656",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "332",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b751102a00019be4af",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:45:08.005000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "760",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52bd51102a00019be631",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:45:08.129000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "760",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bf51102a00019be63e",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:45:08.020000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "760",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "3840",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:45:06.532000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bf51102a00019be640",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53120",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "760",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c351102a00019be678",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:45:08.129000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "760",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "3840",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b751102a00019be4b2",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:45:18.536000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4412",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52bd51102a00019be632",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:45:18.661000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "4412",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bf51102a00019be641",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:45:18.551000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4412",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4212",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:45:17.062000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bf51102a00019be644",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53132",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "4412",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c351102a00019be679",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:45:18.661000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "4412",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "4212",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52b751102a00019be4b5",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:45:29.114000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "2252",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "net.exe",
+            "md5_hash": "7467EC1D75804DF9357A0660919E9831",
+            "parent_image_path": "C:\\commander.exe",
+            "id": "5acd52bd51102a00019be635",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:45:29.239000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "B331B2CE9418FFAF3A759B3889DB1777F1848FFD9954689C6FA25FD6FFC43834",
+            "hostname": "zissler-pc",
+            "ppid": "4780",
+            "sha1_hash": "B1997A11347698358937432675CB3EC3E3CE3599",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\"net\" use \\\\platten-pc.brawlco.com\\C$ NhEN5tHJ#n /user:brawlco\\aplatten",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "pid": "2252",
+            "confidence": 0.8,
+            "parent_exe": "commander.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52bf51102a00019be643",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "time": "2017-04-06T13:45:29.129000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "2252",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "create",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "1920",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "dest_port": "80",
+            "time": "2017-04-06T13:45:27.643000+00:00",
+            "nodetype": "event",
+            "object": "flow",
+            "hostname": "zissler-pc",
+            "ppid": null,
+            "action": "start",
+            "user": "NT AUTHORITY\\SYSTEM",
+            "image_path": "C:\\Windows\\System32\\net.exe",
+            "src_ip": "10.3.15.208",
+            "id": "5acd52bf51102a00019be645",
+            "exe": "net.exe",
+            "dest_fqdn": "platten-pc.brawlco.com",
+            "dest_ip": "10.3.15.209",
+            "src_hostname": "zissler-pc",
+            "src_port": "53142",
+            "src_fqdn": "zissler-pc.brawlco.com",
+            "fqdn": "zissler-pc.brawlco.com",
+            "pid": "2252",
+            "host": "zissler-pc",
+            "dest_hostname": "platten-pc",
+            "confidence": 0.8
+        },
+        {
+            "exe": "conhost.exe",
+            "md5_hash": "D5669294F78A7D48C318EF22D5685BA7",
+            "parent_image_path": "C:\\Windows\\System32\\net.exe",
+            "id": "5acd52c351102a00019be67a",
+            "user": "S-1-5-18",
+            "time": "2017-04-06T13:45:29.239000+00:00",
+            "object": "process",
+            "nodetype": "event",
+            "sha256_hash": "6BD1F5AB9250206AB3836529299055E272ECAA35A72CBD0230CB20FF1CC30902",
+            "hostname": "zissler-pc",
+            "ppid": "2252",
+            "sha1_hash": "0862BAE3DC3A0B5C609867D1A7086F1954F2F556",
+            "action": "terminate",
+            "fqdn": "zissler-pc.brawlco.com",
+            "command_line": "\\??\\C:\\windows\\system32\\conhost.exe 0xffffffff",
+            "image_path": "C:\\Windows\\System32\\conhost.exe",
+            "pid": "1920",
+            "confidence": 0.8,
+            "parent_exe": "net.exe",
+            "host": "zissler-pc"
+        },
+        {
+            "events": [
+                "5acd52b651102a00019be48e",
+                "5acd52b851102a00019be56c",
+                "5acd52ba51102a00019be58b",
+                "5acd52bb51102a00019be58f",
+                "5acd52bb51102a00019be5a1",
+                "5acd52bf51102a00019be63d"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "f98b6fe5-f7f6-4071-a941-e89c97d8ecc3",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52b651102a00019be48e",
+                "5acd52b851102a00019be56c",
+                "5acd52ba51102a00019be58b",
+                "5acd52bb51102a00019be58f",
+                "5acd52bb51102a00019be5a1",
+                "5acd52bf51102a00019be63d"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "af217bf8-fd67-45a3-a4ee-054084a76ba1",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52b651102a00019be48e",
+                "5acd52b851102a00019be56c",
+                "5acd52ba51102a00019be58b",
+                "5acd52bb51102a00019be58f",
+                "5acd52bb51102a00019be5a1",
+                "5acd52bf51102a00019be63d"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "1d84c6e9-47a5-47c5-bc62-d71198fb95f4",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be491",
+                "5acd52b851102a00019be571",
+                "5acd52bb51102a00019be591",
+                "5acd52bb51102a00019be596",
+                "5acd52c051102a00019be64d"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "8419ae40-1f3a-4bb9-84cc-44a04128da2c",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be491",
+                "5acd52b851102a00019be571",
+                "5acd52bb51102a00019be591",
+                "5acd52bb51102a00019be596",
+                "5acd52c051102a00019be64d"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "15ab9072-5eca-45eb-94c9-c988e490902f",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be491",
+                "5acd52b851102a00019be571",
+                "5acd52bb51102a00019be591",
+                "5acd52bb51102a00019be596",
+                "5acd52c051102a00019be64d"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "2178ae37-151b-4bdd-be9d-6dc8867e291c",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be494",
+                "5acd52b851102a00019be564",
+                "5acd52bb51102a00019be58d",
+                "5acd52bb51102a00019be590",
+                "5acd52bf51102a00019be642"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "2770fe44-2dac-4b23-a992-d3aa860af8b9",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be494",
+                "5acd52b851102a00019be564",
+                "5acd52bb51102a00019be58d",
+                "5acd52bb51102a00019be590",
+                "5acd52bf51102a00019be642"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "8976d28f-9f84-4261-bc2c-9acb7db4e693",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be494",
+                "5acd52b851102a00019be564",
+                "5acd52bb51102a00019be58d",
+                "5acd52bb51102a00019be590",
+                "5acd52bf51102a00019be642"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "212ea07f-f819-4557-90d8-9d6bcf00400d",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be497",
+                "5acd52b951102a00019be57e",
+                "5acd52bb51102a00019be58c",
+                "5acd52bb51102a00019be593",
+                "5acd52bf51102a00019be63f"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "7c174c13-a075-48db-8e9d-2b6394a918dc",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be497",
+                "5acd52b951102a00019be57e",
+                "5acd52bb51102a00019be58c",
+                "5acd52bb51102a00019be593",
+                "5acd52bf51102a00019be63f"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "a596e7ce-ba48-43d1-a67a-e27fbb0a28dc",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be497",
+                "5acd52b951102a00019be57e",
+                "5acd52bb51102a00019be58c",
+                "5acd52bb51102a00019be593",
+                "5acd52bf51102a00019be63f"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "e1ce1cde-90af-4508-989d-8b33f80f5626",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be49a",
+                "5acd52b851102a00019be574",
+                "5acd52bb51102a00019be597",
+                "5acd52bb51102a00019be5a9",
+                "5acd52c051102a00019be655"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "328d2fff-c1d3-4711-9de6-8a8a571fb081",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be49a",
+                "5acd52b851102a00019be574",
+                "5acd52bb51102a00019be597",
+                "5acd52bb51102a00019be5a9",
+                "5acd52c051102a00019be655"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "dfa58b17-e51a-46d1-afff-7cb0c0bb6c94",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be49a",
+                "5acd52b851102a00019be574",
+                "5acd52bb51102a00019be597",
+                "5acd52bb51102a00019be5a9",
+                "5acd52c051102a00019be655"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "1b1ce445-d947-40fd-9a21-302c260aa1aa",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be49d",
+                "5acd52b851102a00019be56d",
+                "5acd52bb51102a00019be58e",
+                "5acd52bb51102a00019be595",
+                "5acd52c051102a00019be647"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "fda9e37c-d0e8-4d3c-8ecb-0c638c3456c4",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be49d",
+                "5acd52b851102a00019be56d",
+                "5acd52bb51102a00019be58e",
+                "5acd52bb51102a00019be595",
+                "5acd52c051102a00019be647"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "af687891-593f-4858-9266-da0c7cf48a14",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be49d",
+                "5acd52b851102a00019be56d",
+                "5acd52bb51102a00019be58e",
+                "5acd52bb51102a00019be595",
+                "5acd52c051102a00019be647"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "cb74453d-a8e2-408c-a39d-74e1f349a0fd",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a0",
+                "5acd52b951102a00019be580",
+                "5acd52bb51102a00019be594",
+                "5acd52bb51102a00019be59d",
+                "5acd52c051102a00019be658"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "958e8edb-a838-4613-aa2d-f162bfb9815a",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a0",
+                "5acd52b951102a00019be580",
+                "5acd52bb51102a00019be594",
+                "5acd52bb51102a00019be59d",
+                "5acd52c051102a00019be658"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "c02c84e2-dd73-442d-80fc-c5fd958e41d8",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a0",
+                "5acd52b951102a00019be580",
+                "5acd52bb51102a00019be594",
+                "5acd52bb51102a00019be59d",
+                "5acd52c051102a00019be658"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "488c76b2-8e7e-4e13-89f8-fd16fc231e42",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a3",
+                "5acd52b851102a00019be576",
+                "5acd52ba51102a00019be589",
+                "5acd52bb51102a00019be59c",
+                "5acd52c051102a00019be666"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "fb9c239e-1637-41a2-9fe1-d6752ff066d6",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a3",
+                "5acd52b851102a00019be576",
+                "5acd52ba51102a00019be589",
+                "5acd52bb51102a00019be59c",
+                "5acd52c051102a00019be666"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "33cd547a-1a98-4d66-8732-191531138b42",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a3",
+                "5acd52b851102a00019be576",
+                "5acd52ba51102a00019be589",
+                "5acd52bb51102a00019be59c",
+                "5acd52c051102a00019be666"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "39437fbb-bc0d-48b3-beac-fce380421ea9",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a6",
+                "5acd52b951102a00019be579",
+                "5acd52bb51102a00019be598",
+                "5acd52bb51102a00019be5ad",
+                "5acd52c051102a00019be65e"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "01fe6edb-3c40-4475-81f3-7d6cff83fb28",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a6",
+                "5acd52b951102a00019be579",
+                "5acd52bb51102a00019be598",
+                "5acd52bb51102a00019be5ad",
+                "5acd52c051102a00019be65e"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "426815ce-5ba0-4179-b5e3-7772903acc3a",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a6",
+                "5acd52b951102a00019be579",
+                "5acd52bb51102a00019be598",
+                "5acd52bb51102a00019be5ad",
+                "5acd52c051102a00019be65e"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "45c03246-71a2-4cd9-b01e-0f34db2c272d",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a9",
+                "5acd52b951102a00019be586",
+                "5acd52bb51102a00019be5b1",
+                "5acd52bc51102a00019be5c8",
+                "5acd52c251102a00019be677"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "d9427231-aa57-4bc3-a6ba-a73c6cc34c32",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a9",
+                "5acd52b951102a00019be586",
+                "5acd52bb51102a00019be5b1",
+                "5acd52bc51102a00019be5c8",
+                "5acd52c251102a00019be677"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "532fe137-104c-438e-828f-a83b3f7880d3",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4a9",
+                "5acd52b951102a00019be586",
+                "5acd52bb51102a00019be5b1",
+                "5acd52bc51102a00019be5c8",
+                "5acd52c251102a00019be677"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "a6ddb3db-2e32-4343-a730-c92bb4d971b1",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4ac",
+                "5acd52b951102a00019be585",
+                "5acd52ba51102a00019be587",
+                "5acd52bb51102a00019be5b2",
+                "5acd52c151102a00019be676"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "24bb6321-b1c4-4a2d-874f-d88241567a9e",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4ac",
+                "5acd52b951102a00019be585",
+                "5acd52ba51102a00019be587",
+                "5acd52bb51102a00019be5b2",
+                "5acd52c151102a00019be676"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "d0217ff1-459b-4fc3-ad6c-6b1d2721425f",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b651102a00019be4ac",
+                "5acd52b951102a00019be585",
+                "5acd52ba51102a00019be587",
+                "5acd52bb51102a00019be5b2",
+                "5acd52c151102a00019be676"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "62f3379f-5c6f-473a-8af8-8ac41ca358de",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4af",
+                "5acd52bd51102a00019be631",
+                "5acd52bf51102a00019be63e",
+                "5acd52bf51102a00019be640",
+                "5acd52c351102a00019be678"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "7d4add82-0c9a-4077-ac9b-4fe4c78a84ba",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4af",
+                "5acd52bd51102a00019be631",
+                "5acd52bf51102a00019be63e",
+                "5acd52bf51102a00019be640",
+                "5acd52c351102a00019be678"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "51ea2098-62c9-45e3-b337-96d04728c749",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4af",
+                "5acd52bd51102a00019be631",
+                "5acd52bf51102a00019be63e",
+                "5acd52bf51102a00019be640",
+                "5acd52c351102a00019be678"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "3992359c-e990-4d7c-8c4f-0bd223533954",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4b2",
+                "5acd52bd51102a00019be632",
+                "5acd52bf51102a00019be641",
+                "5acd52bf51102a00019be644",
+                "5acd52c351102a00019be679"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "471d55bb-24ce-4827-a4ed-6de3645e8dc6",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4b2",
+                "5acd52bd51102a00019be632",
+                "5acd52bf51102a00019be641",
+                "5acd52bf51102a00019be644",
+                "5acd52c351102a00019be679"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "71316f98-b1a4-472f-b090-743493ca4a29",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4b2",
+                "5acd52bd51102a00019be632",
+                "5acd52bf51102a00019be641",
+                "5acd52bf51102a00019be644",
+                "5acd52c351102a00019be679"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "b4c1dbb1-0505-4f0a-abaf-81d1b0dab394",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4b5",
+                "5acd52bd51102a00019be635",
+                "5acd52bf51102a00019be643",
+                "5acd52bf51102a00019be645",
+                "5acd52c351102a00019be67a"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "e2e5403d-cf4b-436c-9fb6-477c9be7831f",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4b5",
+                "5acd52bd51102a00019be635",
+                "5acd52bf51102a00019be643",
+                "5acd52bf51102a00019be645",
+                "5acd52c351102a00019be67a"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Windows Admin Shares",
+                    "tactic": [
+                        "Lateral Movement"
+                    ],
+                    "technique_id": "T1077"
+                }
+            ],
+            "id": "ee930215-5479-4288-8d47-0a524c2d9ab0",
+            "nodetype": "step"
+        },
+        {
+            "events": [
+                "5acd52bb51102a00019be5a1",
+                "5acd52b751102a00019be4b5",
+                "5acd52bd51102a00019be635",
+                "5acd52bf51102a00019be643",
+                "5acd52bf51102a00019be645",
+                "5acd52c351102a00019be67a"
+            ],
+            "attack_info": [
+                {
+                    "technique_name": "Local Network Connections Discovery",
+                    "tactic": [
+                        "Discovery"
+                    ],
+                    "technique_id": "T1049"
+                }
+            ],
+            "id": "989209cc-4df4-4868-b178-4ffea53c3179",
+            "nodetype": "step"
+        },
+        {
+            "nodetype": "operation",
+            "id": "bc937ef1-6a72-4e49-a186-97511c07289a",
+            "steps": [
+                "f98b6fe5-f7f6-4071-a941-e89c97d8ecc3",
+                "af217bf8-fd67-45a3-a4ee-054084a76ba1",
+                "1d84c6e9-47a5-47c5-bc62-d71198fb95f4",
+                "8419ae40-1f3a-4bb9-84cc-44a04128da2c",
+                "15ab9072-5eca-45eb-94c9-c988e490902f",
+                "2178ae37-151b-4bdd-be9d-6dc8867e291c",
+                "2770fe44-2dac-4b23-a992-d3aa860af8b9",
+                "8976d28f-9f84-4261-bc2c-9acb7db4e693",
+                "212ea07f-f819-4557-90d8-9d6bcf00400d",
+                "7c174c13-a075-48db-8e9d-2b6394a918dc",
+                "a596e7ce-ba48-43d1-a67a-e27fbb0a28dc",
+                "e1ce1cde-90af-4508-989d-8b33f80f5626",
+                "328d2fff-c1d3-4711-9de6-8a8a571fb081",
+                "dfa58b17-e51a-46d1-afff-7cb0c0bb6c94",
+                "1b1ce445-d947-40fd-9a21-302c260aa1aa",
+                "fda9e37c-d0e8-4d3c-8ecb-0c638c3456c4",
+                "af687891-593f-4858-9266-da0c7cf48a14",
+                "cb74453d-a8e2-408c-a39d-74e1f349a0fd",
+                "958e8edb-a838-4613-aa2d-f162bfb9815a",
+                "c02c84e2-dd73-442d-80fc-c5fd958e41d8",
+                "488c76b2-8e7e-4e13-89f8-fd16fc231e42",
+                "fb9c239e-1637-41a2-9fe1-d6752ff066d6",
+                "33cd547a-1a98-4d66-8732-191531138b42",
+                "39437fbb-bc0d-48b3-beac-fce380421ea9",
+                "01fe6edb-3c40-4475-81f3-7d6cff83fb28",
+                "426815ce-5ba0-4179-b5e3-7772903acc3a",
+                "45c03246-71a2-4cd9-b01e-0f34db2c272d",
+                "d9427231-aa57-4bc3-a6ba-a73c6cc34c32",
+                "532fe137-104c-438e-828f-a83b3f7880d3",
+                "a6ddb3db-2e32-4343-a730-c92bb4d971b1",
+                "24bb6321-b1c4-4a2d-874f-d88241567a9e",
+                "d0217ff1-459b-4fc3-ad6c-6b1d2721425f",
+                "62f3379f-5c6f-473a-8af8-8ac41ca358de",
+                "7d4add82-0c9a-4077-ac9b-4fe4c78a84ba",
+                "51ea2098-62c9-45e3-b337-96d04728c749",
+                "3992359c-e990-4d7c-8c4f-0bd223533954",
+                "471d55bb-24ce-4827-a4ed-6de3645e8dc6",
+                "71316f98-b1a4-472f-b090-743493ca4a29",
+                "b4c1dbb1-0505-4f0a-abaf-81d1b0dab394",
+                "e2e5403d-cf4b-436c-9fb6-477c9be7831f",
+                "ee930215-5479-4288-8d47-0a524c2d9ab0",
+                "989209cc-4df4-4868-b178-4ffea53c3179"
+            ]
+        }
+    ],
+    "game_id": "RECAST-20170406_01",
+    "bsf_version": 1.0,
+    "producer_id": "cascade"
+}
